@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FB0ADFA1CDDE0DE006E10D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0ADF91CDDE0DE006E10D2 /* AppDelegate.swift */; };
+		9FB0ADFC1CDDE0DE006E10D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0ADFB1CDDE0DE006E10D2 /* ViewController.swift */; };
+		9FB0ADFF1CDDE0DE006E10D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0ADFD1CDDE0DE006E10D2 /* Main.storyboard */; };
+		9FB0AE011CDDE0DE006E10D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0AE001CDDE0DE006E10D2 /* Assets.xcassets */; };
+		9FB0AE041CDDE0DE006E10D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0AE021CDDE0DE006E10D2 /* LaunchScreen.storyboard */; };
+		9FB0AE0F1CDDE0DE006E10D2 /* Tap_Or_Hold_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0AE0E1CDDE0DE006E10D2 /* Tap_Or_Hold_CounterTests.swift */; };
+		9FB0AE1A1CDDE0DE006E10D2 /* Tap_Or_Hold_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0AE191CDDE0DE006E10D2 /* Tap_Or_Hold_CounterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FB0AE0B1CDDE0DE006E10D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FB0ADEE1CDDE0DE006E10D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FB0ADF51CDDE0DE006E10D2;
+			remoteInfo = "Tap Or Hold Counter";
+		};
+		9FB0AE161CDDE0DE006E10D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FB0ADEE1CDDE0DE006E10D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FB0ADF51CDDE0DE006E10D2;
+			remoteInfo = "Tap Or Hold Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FB0ADF61CDDE0DE006E10D2 /* Tap Or Hold Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Or Hold Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB0ADF91CDDE0DE006E10D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FB0ADFB1CDDE0DE006E10D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FB0ADFE1CDDE0DE006E10D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FB0AE001CDDE0DE006E10D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FB0AE031CDDE0DE006E10D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FB0AE051CDDE0DE006E10D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB0AE0A1CDDE0DE006E10D2 /* Tap Or Hold CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Or Hold CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB0AE0E1CDDE0DE006E10D2 /* Tap_Or_Hold_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_Or_Hold_CounterTests.swift; sourceTree = "<group>"; };
+		9FB0AE101CDDE0DE006E10D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB0AE151CDDE0DE006E10D2 /* Tap Or Hold CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Or Hold CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB0AE191CDDE0DE006E10D2 /* Tap_Or_Hold_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_Or_Hold_CounterUITests.swift; sourceTree = "<group>"; };
+		9FB0AE1B1CDDE0DE006E10D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FB0ADF31CDDE0DE006E10D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB0AE071CDDE0DE006E10D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB0AE121CDDE0DE006E10D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FB0ADED1CDDE0DE006E10D2 = {
+			isa = PBXGroup;
+			children = (
+				9FB0ADF81CDDE0DE006E10D2 /* Tap Or Hold Counter */,
+				9FB0AE0D1CDDE0DE006E10D2 /* Tap Or Hold CounterTests */,
+				9FB0AE181CDDE0DE006E10D2 /* Tap Or Hold CounterUITests */,
+				9FB0ADF71CDDE0DE006E10D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB0ADF71CDDE0DE006E10D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FB0ADF61CDDE0DE006E10D2 /* Tap Or Hold Counter.app */,
+				9FB0AE0A1CDDE0DE006E10D2 /* Tap Or Hold CounterTests.xctest */,
+				9FB0AE151CDDE0DE006E10D2 /* Tap Or Hold CounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB0ADF81CDDE0DE006E10D2 /* Tap Or Hold Counter */ = {
+			isa = PBXGroup;
+			children = (
+				9FB0ADF91CDDE0DE006E10D2 /* AppDelegate.swift */,
+				9FB0ADFB1CDDE0DE006E10D2 /* ViewController.swift */,
+				9FB0ADFD1CDDE0DE006E10D2 /* Main.storyboard */,
+				9FB0AE001CDDE0DE006E10D2 /* Assets.xcassets */,
+				9FB0AE021CDDE0DE006E10D2 /* LaunchScreen.storyboard */,
+				9FB0AE051CDDE0DE006E10D2 /* Info.plist */,
+			);
+			path = "Tap Or Hold Counter";
+			sourceTree = "<group>";
+		};
+		9FB0AE0D1CDDE0DE006E10D2 /* Tap Or Hold CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FB0AE0E1CDDE0DE006E10D2 /* Tap_Or_Hold_CounterTests.swift */,
+				9FB0AE101CDDE0DE006E10D2 /* Info.plist */,
+			);
+			path = "Tap Or Hold CounterTests";
+			sourceTree = "<group>";
+		};
+		9FB0AE181CDDE0DE006E10D2 /* Tap Or Hold CounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FB0AE191CDDE0DE006E10D2 /* Tap_Or_Hold_CounterUITests.swift */,
+				9FB0AE1B1CDDE0DE006E10D2 /* Info.plist */,
+			);
+			path = "Tap Or Hold CounterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FB0ADF51CDDE0DE006E10D2 /* Tap Or Hold Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB0AE1E1CDDE0DE006E10D2 /* Build configuration list for PBXNativeTarget "Tap Or Hold Counter" */;
+			buildPhases = (
+				9FB0ADF21CDDE0DE006E10D2 /* Sources */,
+				9FB0ADF31CDDE0DE006E10D2 /* Frameworks */,
+				9FB0ADF41CDDE0DE006E10D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Or Hold Counter";
+			productName = "Tap Or Hold Counter";
+			productReference = 9FB0ADF61CDDE0DE006E10D2 /* Tap Or Hold Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FB0AE091CDDE0DE006E10D2 /* Tap Or Hold CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB0AE211CDDE0DE006E10D2 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterTests" */;
+			buildPhases = (
+				9FB0AE061CDDE0DE006E10D2 /* Sources */,
+				9FB0AE071CDDE0DE006E10D2 /* Frameworks */,
+				9FB0AE081CDDE0DE006E10D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FB0AE0C1CDDE0DE006E10D2 /* PBXTargetDependency */,
+			);
+			name = "Tap Or Hold CounterTests";
+			productName = "Tap Or Hold CounterTests";
+			productReference = 9FB0AE0A1CDDE0DE006E10D2 /* Tap Or Hold CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FB0AE141CDDE0DE006E10D2 /* Tap Or Hold CounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB0AE241CDDE0DE006E10D2 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterUITests" */;
+			buildPhases = (
+				9FB0AE111CDDE0DE006E10D2 /* Sources */,
+				9FB0AE121CDDE0DE006E10D2 /* Frameworks */,
+				9FB0AE131CDDE0DE006E10D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FB0AE171CDDE0DE006E10D2 /* PBXTargetDependency */,
+			);
+			name = "Tap Or Hold CounterUITests";
+			productName = "Tap Or Hold CounterUITests";
+			productReference = 9FB0AE151CDDE0DE006E10D2 /* Tap Or Hold CounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB0ADEE1CDDE0DE006E10D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MY;
+				TargetAttributes = {
+					9FB0ADF51CDDE0DE006E10D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9FB0AE091CDDE0DE006E10D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9FB0ADF51CDDE0DE006E10D2;
+					};
+					9FB0AE141CDDE0DE006E10D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9FB0ADF51CDDE0DE006E10D2;
+					};
+				};
+			};
+			buildConfigurationList = 9FB0ADF11CDDE0DE006E10D2 /* Build configuration list for PBXProject "Tap Or Hold Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FB0ADED1CDDE0DE006E10D2;
+			productRefGroup = 9FB0ADF71CDDE0DE006E10D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB0ADF51CDDE0DE006E10D2 /* Tap Or Hold Counter */,
+				9FB0AE091CDDE0DE006E10D2 /* Tap Or Hold CounterTests */,
+				9FB0AE141CDDE0DE006E10D2 /* Tap Or Hold CounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FB0ADF41CDDE0DE006E10D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB0AE041CDDE0DE006E10D2 /* LaunchScreen.storyboard in Resources */,
+				9FB0AE011CDDE0DE006E10D2 /* Assets.xcassets in Resources */,
+				9FB0ADFF1CDDE0DE006E10D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB0AE081CDDE0DE006E10D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB0AE131CDDE0DE006E10D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FB0ADF21CDDE0DE006E10D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB0ADFC1CDDE0DE006E10D2 /* ViewController.swift in Sources */,
+				9FB0ADFA1CDDE0DE006E10D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB0AE061CDDE0DE006E10D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB0AE0F1CDDE0DE006E10D2 /* Tap_Or_Hold_CounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB0AE111CDDE0DE006E10D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB0AE1A1CDDE0DE006E10D2 /* Tap_Or_Hold_CounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FB0AE0C1CDDE0DE006E10D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FB0ADF51CDDE0DE006E10D2 /* Tap Or Hold Counter */;
+			targetProxy = 9FB0AE0B1CDDE0DE006E10D2 /* PBXContainerItemProxy */;
+		};
+		9FB0AE171CDDE0DE006E10D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FB0ADF51CDDE0DE006E10D2 /* Tap Or Hold Counter */;
+			targetProxy = 9FB0AE161CDDE0DE006E10D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FB0ADFD1CDDE0DE006E10D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB0ADFE1CDDE0DE006E10D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FB0AE021CDDE0DE006E10D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB0AE031CDDE0DE006E10D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FB0AE1C1CDDE0DE006E10D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FB0AE1D1CDDE0DE006E10D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FB0AE1F1CDDE0DE006E10D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tap Or Hold Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Tap-Or-Hold-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FB0AE201CDDE0DE006E10D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tap Or Hold Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Tap-Or-Hold-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FB0AE221CDDE0DE006E10D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tap Or Hold CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Tap-Or-Hold-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Or Hold Counter.app/Tap Or Hold Counter";
+			};
+			name = Debug;
+		};
+		9FB0AE231CDDE0DE006E10D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tap Or Hold CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Tap-Or-Hold-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Or Hold Counter.app/Tap Or Hold Counter";
+			};
+			name = Release;
+		};
+		9FB0AE251CDDE0DE006E10D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tap Or Hold CounterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Tap-Or-Hold-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tap Or Hold Counter";
+			};
+			name = Debug;
+		};
+		9FB0AE261CDDE0DE006E10D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tap Or Hold CounterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Tap-Or-Hold-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tap Or Hold Counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB0ADF11CDDE0DE006E10D2 /* Build configuration list for PBXProject "Tap Or Hold Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB0AE1C1CDDE0DE006E10D2 /* Debug */,
+				9FB0AE1D1CDDE0DE006E10D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB0AE1E1CDDE0DE006E10D2 /* Build configuration list for PBXNativeTarget "Tap Or Hold Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB0AE1F1CDDE0DE006E10D2 /* Debug */,
+				9FB0AE201CDDE0DE006E10D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FB0AE211CDDE0DE006E10D2 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB0AE221CDDE0DE006E10D2 /* Debug */,
+				9FB0AE231CDDE0DE006E10D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FB0AE241CDDE0DE006E10D2 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB0AE251CDDE0DE006E10D2 /* Debug */,
+				9FB0AE261CDDE0DE006E10D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FB0ADEE1CDDE0DE006E10D2 /* Project object */;
+}
