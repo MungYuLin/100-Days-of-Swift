@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1A0B841CE2E27A0067E3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A0B831CE2E27A0067E3E4 /* AppDelegate.swift */; };
+		9F1A0B861CE2E27A0067E3E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A0B851CE2E27A0067E3E4 /* ViewController.swift */; };
+		9F1A0B891CE2E27A0067E3E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A0B871CE2E27A0067E3E4 /* Main.storyboard */; };
+		9F1A0B8B1CE2E27A0067E3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A0B8A1CE2E27A0067E3E4 /* Assets.xcassets */; };
+		9F1A0B8E1CE2E27A0067E3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A0B8C1CE2E27A0067E3E4 /* LaunchScreen.storyboard */; };
+		9F1A0B991CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A0B981CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeTests.swift */; };
+		9F1A0BA41CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A0BA31CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1A0B951CE2E27A0067E3E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1A0B781CE2E27A0067E3E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1A0B7F1CE2E27A0067E3E4;
+			remoteInfo = "Getting Current Date And Time";
+		};
+		9F1A0BA01CE2E27A0067E3E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1A0B781CE2E27A0067E3E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1A0B7F1CE2E27A0067E3E4;
+			remoteInfo = "Getting Current Date And Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1A0B801CE2E27A0067E3E4 /* Getting Current Date And Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Getting Current Date And Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A0B831CE2E27A0067E3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F1A0B851CE2E27A0067E3E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F1A0B881CE2E27A0067E3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F1A0B8A1CE2E27A0067E3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1A0B8D1CE2E27A0067E3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F1A0B8F1CE2E27A0067E3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1A0B941CE2E27A0067E3E4 /* Getting Current Date And TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Getting Current Date And TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A0B981CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getting_Current_Date_And_TimeTests.swift; sourceTree = "<group>"; };
+		9F1A0B9A1CE2E27A0067E3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1A0B9F1CE2E27A0067E3E4 /* Getting Current Date And TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Getting Current Date And TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A0BA31CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getting_Current_Date_And_TimeUITests.swift; sourceTree = "<group>"; };
+		9F1A0BA51CE2E27A0067E3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1A0B7D1CE2E27A0067E3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A0B911CE2E27A0067E3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A0B9C1CE2E27A0067E3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1A0B771CE2E27A0067E3E4 = {
+			isa = PBXGroup;
+			children = (
+				9F1A0B821CE2E27A0067E3E4 /* Getting Current Date And Time */,
+				9F1A0B971CE2E27A0067E3E4 /* Getting Current Date And TimeTests */,
+				9F1A0BA21CE2E27A0067E3E4 /* Getting Current Date And TimeUITests */,
+				9F1A0B811CE2E27A0067E3E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1A0B811CE2E27A0067E3E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A0B801CE2E27A0067E3E4 /* Getting Current Date And Time.app */,
+				9F1A0B941CE2E27A0067E3E4 /* Getting Current Date And TimeTests.xctest */,
+				9F1A0B9F1CE2E27A0067E3E4 /* Getting Current Date And TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F1A0B821CE2E27A0067E3E4 /* Getting Current Date And Time */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A0B831CE2E27A0067E3E4 /* AppDelegate.swift */,
+				9F1A0B851CE2E27A0067E3E4 /* ViewController.swift */,
+				9F1A0B871CE2E27A0067E3E4 /* Main.storyboard */,
+				9F1A0B8A1CE2E27A0067E3E4 /* Assets.xcassets */,
+				9F1A0B8C1CE2E27A0067E3E4 /* LaunchScreen.storyboard */,
+				9F1A0B8F1CE2E27A0067E3E4 /* Info.plist */,
+			);
+			path = "Getting Current Date And Time";
+			sourceTree = "<group>";
+		};
+		9F1A0B971CE2E27A0067E3E4 /* Getting Current Date And TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A0B981CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeTests.swift */,
+				9F1A0B9A1CE2E27A0067E3E4 /* Info.plist */,
+			);
+			path = "Getting Current Date And TimeTests";
+			sourceTree = "<group>";
+		};
+		9F1A0BA21CE2E27A0067E3E4 /* Getting Current Date And TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A0BA31CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeUITests.swift */,
+				9F1A0BA51CE2E27A0067E3E4 /* Info.plist */,
+			);
+			path = "Getting Current Date And TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1A0B7F1CE2E27A0067E3E4 /* Getting Current Date And Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1A0BA81CE2E27A0067E3E4 /* Build configuration list for PBXNativeTarget "Getting Current Date And Time" */;
+			buildPhases = (
+				9F1A0B7C1CE2E27A0067E3E4 /* Sources */,
+				9F1A0B7D1CE2E27A0067E3E4 /* Frameworks */,
+				9F1A0B7E1CE2E27A0067E3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Getting Current Date And Time";
+			productName = "Getting Current Date And Time";
+			productReference = 9F1A0B801CE2E27A0067E3E4 /* Getting Current Date And Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1A0B931CE2E27A0067E3E4 /* Getting Current Date And TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1A0BAB1CE2E27A0067E3E4 /* Build configuration list for PBXNativeTarget "Getting Current Date And TimeTests" */;
+			buildPhases = (
+				9F1A0B901CE2E27A0067E3E4 /* Sources */,
+				9F1A0B911CE2E27A0067E3E4 /* Frameworks */,
+				9F1A0B921CE2E27A0067E3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1A0B961CE2E27A0067E3E4 /* PBXTargetDependency */,
+			);
+			name = "Getting Current Date And TimeTests";
+			productName = "Getting Current Date And TimeTests";
+			productReference = 9F1A0B941CE2E27A0067E3E4 /* Getting Current Date And TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1A0B9E1CE2E27A0067E3E4 /* Getting Current Date And TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1A0BAE1CE2E27A0067E3E4 /* Build configuration list for PBXNativeTarget "Getting Current Date And TimeUITests" */;
+			buildPhases = (
+				9F1A0B9B1CE2E27A0067E3E4 /* Sources */,
+				9F1A0B9C1CE2E27A0067E3E4 /* Frameworks */,
+				9F1A0B9D1CE2E27A0067E3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1A0BA11CE2E27A0067E3E4 /* PBXTargetDependency */,
+			);
+			name = "Getting Current Date And TimeUITests";
+			productName = "Getting Current Date And TimeUITests";
+			productReference = 9F1A0B9F1CE2E27A0067E3E4 /* Getting Current Date And TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1A0B781CE2E27A0067E3E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MY;
+				TargetAttributes = {
+					9F1A0B7F1CE2E27A0067E3E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9F1A0B931CE2E27A0067E3E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F1A0B7F1CE2E27A0067E3E4;
+					};
+					9F1A0B9E1CE2E27A0067E3E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F1A0B7F1CE2E27A0067E3E4;
+					};
+				};
+			};
+			buildConfigurationList = 9F1A0B7B1CE2E27A0067E3E4 /* Build configuration list for PBXProject "Getting Current Date And Time" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1A0B771CE2E27A0067E3E4;
+			productRefGroup = 9F1A0B811CE2E27A0067E3E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1A0B7F1CE2E27A0067E3E4 /* Getting Current Date And Time */,
+				9F1A0B931CE2E27A0067E3E4 /* Getting Current Date And TimeTests */,
+				9F1A0B9E1CE2E27A0067E3E4 /* Getting Current Date And TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1A0B7E1CE2E27A0067E3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1A0B8E1CE2E27A0067E3E4 /* LaunchScreen.storyboard in Resources */,
+				9F1A0B8B1CE2E27A0067E3E4 /* Assets.xcassets in Resources */,
+				9F1A0B891CE2E27A0067E3E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A0B921CE2E27A0067E3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A0B9D1CE2E27A0067E3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1A0B7C1CE2E27A0067E3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1A0B861CE2E27A0067E3E4 /* ViewController.swift in Sources */,
+				9F1A0B841CE2E27A0067E3E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A0B901CE2E27A0067E3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1A0B991CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A0B9B1CE2E27A0067E3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1A0BA41CE2E27A0067E3E4 /* Getting_Current_Date_And_TimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1A0B961CE2E27A0067E3E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1A0B7F1CE2E27A0067E3E4 /* Getting Current Date And Time */;
+			targetProxy = 9F1A0B951CE2E27A0067E3E4 /* PBXContainerItemProxy */;
+		};
+		9F1A0BA11CE2E27A0067E3E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1A0B7F1CE2E27A0067E3E4 /* Getting Current Date And Time */;
+			targetProxy = 9F1A0BA01CE2E27A0067E3E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F1A0B871CE2E27A0067E3E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1A0B881CE2E27A0067E3E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F1A0B8C1CE2E27A0067E3E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1A0B8D1CE2E27A0067E3E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F1A0BA61CE2E27A0067E3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1A0BA71CE2E27A0067E3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1A0BA91CE2E27A0067E3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Getting Current Date And Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Getting-Current-Date-And-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F1A0BAA1CE2E27A0067E3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Getting Current Date And Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Getting-Current-Date-And-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F1A0BAC1CE2E27A0067E3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Getting Current Date And TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Getting-Current-Date-And-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Getting Current Date And Time.app/Getting Current Date And Time";
+			};
+			name = Debug;
+		};
+		9F1A0BAD1CE2E27A0067E3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Getting Current Date And TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Getting-Current-Date-And-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Getting Current Date And Time.app/Getting Current Date And Time";
+			};
+			name = Release;
+		};
+		9F1A0BAF1CE2E27A0067E3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Getting Current Date And TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Getting-Current-Date-And-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Getting Current Date And Time";
+			};
+			name = Debug;
+		};
+		9F1A0BB01CE2E27A0067E3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Getting Current Date And TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Getting-Current-Date-And-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Getting Current Date And Time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1A0B7B1CE2E27A0067E3E4 /* Build configuration list for PBXProject "Getting Current Date And Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A0BA61CE2E27A0067E3E4 /* Debug */,
+				9F1A0BA71CE2E27A0067E3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1A0BA81CE2E27A0067E3E4 /* Build configuration list for PBXNativeTarget "Getting Current Date And Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A0BA91CE2E27A0067E3E4 /* Debug */,
+				9F1A0BAA1CE2E27A0067E3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F1A0BAB1CE2E27A0067E3E4 /* Build configuration list for PBXNativeTarget "Getting Current Date And TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A0BAC1CE2E27A0067E3E4 /* Debug */,
+				9F1A0BAD1CE2E27A0067E3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F1A0BAE1CE2E27A0067E3E4 /* Build configuration list for PBXNativeTarget "Getting Current Date And TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A0BAF1CE2E27A0067E3E4 /* Debug */,
+				9F1A0BB01CE2E27A0067E3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1A0B781CE2E27A0067E3E4 /* Project object */;
+}
