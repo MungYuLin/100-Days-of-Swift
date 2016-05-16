@@ -14,6 +14,7 @@
 		9F36C0861CE9F626001681A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F36C0841CE9F626001681A4 /* LaunchScreen.storyboard */; };
 		9F36C0911CE9F626001681A4 /* Add_Photo_From_Camera_RollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36C0901CE9F626001681A4 /* Add_Photo_From_Camera_RollTests.swift */; };
 		9F36C09C1CE9F626001681A4 /* Add_Photo_From_Camera_RollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36C09B1CE9F626001681A4 /* Add_Photo_From_Camera_RollUITests.swift */; };
+		9F36C0AA1CE9F767001681A4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36C0A91CE9F767001681A4 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F36C0971CE9F626001681A4 /* Add Photo From Camera RollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add Photo From Camera RollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F36C09B1CE9F626001681A4 /* Add_Photo_From_Camera_RollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Photo_From_Camera_RollUITests.swift; sourceTree = "<group>"; };
 		9F36C09D1CE9F626001681A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F36C0A91CE9F767001681A4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9F36C0821CE9F626001681A4 /* Assets.xcassets */,
 				9F36C0841CE9F626001681A4 /* LaunchScreen.storyboard */,
 				9F36C0871CE9F626001681A4 /* Info.plist */,
+				9F36C0A91CE9F767001681A4 /* DetailViewController.swift */,
 			);
 			path = "Add Photo From Camera Roll";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F36C0AA1CE9F767001681A4 /* DetailViewController.swift in Sources */,
 				9F36C07E1CE9F626001681A4 /* ViewController.swift in Sources */,
 				9F36C07C1CE9F626001681A4 /* AppDelegate.swift in Sources */,
 			);
