@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F919C711CE9DFAF00DED6FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F919C701CE9DFAF00DED6FE /* AppDelegate.swift */; };
+		9F919C731CE9DFAF00DED6FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F919C721CE9DFAF00DED6FE /* ViewController.swift */; };
+		9F919C761CE9DFAF00DED6FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F919C741CE9DFAF00DED6FE /* Main.storyboard */; };
+		9F919C781CE9DFAF00DED6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F919C771CE9DFAF00DED6FE /* Assets.xcassets */; };
+		9F919C7B1CE9DFAF00DED6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F919C791CE9DFAF00DED6FE /* LaunchScreen.storyboard */; };
+		9F919C861CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F919C851CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardTests.swift */; };
+		9F919C911CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F919C901CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardUITests.swift */; };
+		9F919C9F1CE9DFFE00DED6FE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F919C9E1CE9DFFE00DED6FE /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F919C821CE9DFAF00DED6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F919C651CE9DFAF00DED6FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F919C6C1CE9DFAF00DED6FE;
+			remoteInfo = "Swipe to Dismiss Keyboard";
+		};
+		9F919C8D1CE9DFAF00DED6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F919C651CE9DFAF00DED6FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F919C6C1CE9DFAF00DED6FE;
+			remoteInfo = "Swipe to Dismiss Keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F919C6D1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipe to Dismiss Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F919C701CE9DFAF00DED6FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F919C721CE9DFAF00DED6FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F919C751CE9DFAF00DED6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F919C771CE9DFAF00DED6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F919C7A1CE9DFAF00DED6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F919C7C1CE9DFAF00DED6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F919C811CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipe to Dismiss KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F919C851CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe_to_Dismiss_KeyboardTests.swift; sourceTree = "<group>"; };
+		9F919C871CE9DFAF00DED6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F919C8C1CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipe to Dismiss KeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F919C901CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe_to_Dismiss_KeyboardUITests.swift; sourceTree = "<group>"; };
+		9F919C921CE9DFAF00DED6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F919C9E1CE9DFFE00DED6FE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F919C6A1CE9DFAF00DED6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F919C7E1CE9DFAF00DED6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F919C891CE9DFAF00DED6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F919C641CE9DFAF00DED6FE = {
+			isa = PBXGroup;
+			children = (
+				9F919C6F1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard */,
+				9F919C841CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardTests */,
+				9F919C8F1CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardUITests */,
+				9F919C6E1CE9DFAF00DED6FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F919C6E1CE9DFAF00DED6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F919C6D1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard.app */,
+				9F919C811CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardTests.xctest */,
+				9F919C8C1CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F919C6F1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9F919C701CE9DFAF00DED6FE /* AppDelegate.swift */,
+				9F919C721CE9DFAF00DED6FE /* ViewController.swift */,
+				9F919C741CE9DFAF00DED6FE /* Main.storyboard */,
+				9F919C771CE9DFAF00DED6FE /* Assets.xcassets */,
+				9F919C791CE9DFAF00DED6FE /* LaunchScreen.storyboard */,
+				9F919C7C1CE9DFAF00DED6FE /* Info.plist */,
+				9F919C9E1CE9DFFE00DED6FE /* DetailViewController.swift */,
+			);
+			path = "Swipe to Dismiss Keyboard";
+			sourceTree = "<group>";
+		};
+		9F919C841CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F919C851CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardTests.swift */,
+				9F919C871CE9DFAF00DED6FE /* Info.plist */,
+			);
+			path = "Swipe to Dismiss KeyboardTests";
+			sourceTree = "<group>";
+		};
+		9F919C8F1CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F919C901CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardUITests.swift */,
+				9F919C921CE9DFAF00DED6FE /* Info.plist */,
+			);
+			path = "Swipe to Dismiss KeyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F919C6C1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F919C951CE9DFAF00DED6FE /* Build configuration list for PBXNativeTarget "Swipe to Dismiss Keyboard" */;
+			buildPhases = (
+				9F919C691CE9DFAF00DED6FE /* Sources */,
+				9F919C6A1CE9DFAF00DED6FE /* Frameworks */,
+				9F919C6B1CE9DFAF00DED6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swipe to Dismiss Keyboard";
+			productName = "Swipe to Dismiss Keyboard";
+			productReference = 9F919C6D1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F919C801CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F919C981CE9DFAF00DED6FE /* Build configuration list for PBXNativeTarget "Swipe to Dismiss KeyboardTests" */;
+			buildPhases = (
+				9F919C7D1CE9DFAF00DED6FE /* Sources */,
+				9F919C7E1CE9DFAF00DED6FE /* Frameworks */,
+				9F919C7F1CE9DFAF00DED6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F919C831CE9DFAF00DED6FE /* PBXTargetDependency */,
+			);
+			name = "Swipe to Dismiss KeyboardTests";
+			productName = "Swipe to Dismiss KeyboardTests";
+			productReference = 9F919C811CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F919C8B1CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F919C9B1CE9DFAF00DED6FE /* Build configuration list for PBXNativeTarget "Swipe to Dismiss KeyboardUITests" */;
+			buildPhases = (
+				9F919C881CE9DFAF00DED6FE /* Sources */,
+				9F919C891CE9DFAF00DED6FE /* Frameworks */,
+				9F919C8A1CE9DFAF00DED6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F919C8E1CE9DFAF00DED6FE /* PBXTargetDependency */,
+			);
+			name = "Swipe to Dismiss KeyboardUITests";
+			productName = "Swipe to Dismiss KeyboardUITests";
+			productReference = 9F919C8C1CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F919C651CE9DFAF00DED6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MY;
+				TargetAttributes = {
+					9F919C6C1CE9DFAF00DED6FE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9F919C801CE9DFAF00DED6FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F919C6C1CE9DFAF00DED6FE;
+					};
+					9F919C8B1CE9DFAF00DED6FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F919C6C1CE9DFAF00DED6FE;
+					};
+				};
+			};
+			buildConfigurationList = 9F919C681CE9DFAF00DED6FE /* Build configuration list for PBXProject "Swipe to Dismiss Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F919C641CE9DFAF00DED6FE;
+			productRefGroup = 9F919C6E1CE9DFAF00DED6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F919C6C1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard */,
+				9F919C801CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardTests */,
+				9F919C8B1CE9DFAF00DED6FE /* Swipe to Dismiss KeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F919C6B1CE9DFAF00DED6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F919C7B1CE9DFAF00DED6FE /* LaunchScreen.storyboard in Resources */,
+				9F919C781CE9DFAF00DED6FE /* Assets.xcassets in Resources */,
+				9F919C761CE9DFAF00DED6FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F919C7F1CE9DFAF00DED6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F919C8A1CE9DFAF00DED6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F919C691CE9DFAF00DED6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F919C9F1CE9DFFE00DED6FE /* DetailViewController.swift in Sources */,
+				9F919C731CE9DFAF00DED6FE /* ViewController.swift in Sources */,
+				9F919C711CE9DFAF00DED6FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F919C7D1CE9DFAF00DED6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F919C861CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F919C881CE9DFAF00DED6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F919C911CE9DFAF00DED6FE /* Swipe_to_Dismiss_KeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F919C831CE9DFAF00DED6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F919C6C1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard */;
+			targetProxy = 9F919C821CE9DFAF00DED6FE /* PBXContainerItemProxy */;
+		};
+		9F919C8E1CE9DFAF00DED6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F919C6C1CE9DFAF00DED6FE /* Swipe to Dismiss Keyboard */;
+			targetProxy = 9F919C8D1CE9DFAF00DED6FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F919C741CE9DFAF00DED6FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F919C751CE9DFAF00DED6FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F919C791CE9DFAF00DED6FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F919C7A1CE9DFAF00DED6FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F919C931CE9DFAF00DED6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F919C941CE9DFAF00DED6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F919C961CE9DFAF00DED6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swipe to Dismiss Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Swipe-to-Dismiss-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F919C971CE9DFAF00DED6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swipe to Dismiss Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Swipe-to-Dismiss-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F919C991CE9DFAF00DED6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swipe to Dismiss KeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Swipe-to-Dismiss-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe to Dismiss Keyboard.app/Swipe to Dismiss Keyboard";
+			};
+			name = Debug;
+		};
+		9F919C9A1CE9DFAF00DED6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swipe to Dismiss KeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Swipe-to-Dismiss-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe to Dismiss Keyboard.app/Swipe to Dismiss Keyboard";
+			};
+			name = Release;
+		};
+		9F919C9C1CE9DFAF00DED6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swipe to Dismiss KeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Swipe-to-Dismiss-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swipe to Dismiss Keyboard";
+			};
+			name = Debug;
+		};
+		9F919C9D1CE9DFAF00DED6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swipe to Dismiss KeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Swipe-to-Dismiss-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swipe to Dismiss Keyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F919C681CE9DFAF00DED6FE /* Build configuration list for PBXProject "Swipe to Dismiss Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F919C931CE9DFAF00DED6FE /* Debug */,
+				9F919C941CE9DFAF00DED6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F919C951CE9DFAF00DED6FE /* Build configuration list for PBXNativeTarget "Swipe to Dismiss Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F919C961CE9DFAF00DED6FE /* Debug */,
+				9F919C971CE9DFAF00DED6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F919C981CE9DFAF00DED6FE /* Build configuration list for PBXNativeTarget "Swipe to Dismiss KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F919C991CE9DFAF00DED6FE /* Debug */,
+				9F919C9A1CE9DFAF00DED6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F919C9B1CE9DFAF00DED6FE /* Build configuration list for PBXNativeTarget "Swipe to Dismiss KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F919C9C1CE9DFAF00DED6FE /* Debug */,
+				9F919C9D1CE9DFAF00DED6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F919C651CE9DFAF00DED6FE /* Project object */;
+}
