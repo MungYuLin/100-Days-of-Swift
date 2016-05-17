@@ -11,7 +11,7 @@ import UIKit
 
 class DetailViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    var textField: UITextView!
+    var textView: UITextView!
     var oldInfo: String!
     var imagePicker: UIImagePickerController!
     
@@ -31,11 +31,11 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     func showDetailView() {
-        textField = UITextView(
+        textView = UITextView(
             frame: CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 60))
-        textField.text = oldInfo
-        textField.becomeFirstResponder()
-        self.view.addSubview(textField)
+        textView.text = oldInfo
+        textView.becomeFirstResponder()
+        self.view.addSubview(textView)
     }
     
     func cameraClicked() {
@@ -45,13 +45,11 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate, U
         self.presentViewController(self.imagePicker, animated: true, completion: nil)
     }
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
-        print(picker)
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
         let attachment = NSTextAttachment()
-        attachment.image = UIImage(named: "test")
-        //attachment.bounds = CGRectMake(0, 0, attachment.image!.size.width, attachment.image!.size.height);
-        let attributedStr = NSAttributedString(attachment: attachment)
-        textField.attributedText = attributedStr
+        attachment.image = scaleImage(image)
+        let attString = NSAttributedString(attachment: attachment)
+        textView.textStorage.insertAttributedString(attString, atIndex: textView.selectedRange.location)
         
         imagePicker.dismissViewControllerAnimated(true, completion: nil)
     }
@@ -60,7 +58,7 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate, U
         let viewController = ViewController()
         for (index, value) in viewController.list.enumerate() {
             if(value == oldInfo) {
-                viewController.list[index] = textField.text!
+                viewController.list[index] = textView.text!
                 break
             }
         }
@@ -71,10 +69,18 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate, U
     func moveSwipeGesture(sender: UISwipeGestureRecognizer){
         switch (sender.direction){
         case UISwipeGestureRecognizerDirection.Down:
-            textField.resignFirstResponder()
+            textView.resignFirstResponder()
             break
         default:
             break;
         }
+    }
+    
+    func scaleImage(image:UIImage) -> UIImage{
+        UIGraphicsBeginImageContext(CGSizeMake(self.view.bounds.size.width, image.size.height*(self.view.bounds.size.width/image.size.width)))
+        image.drawInRect(CGRectMake(0, 0, self.view.bounds.size.width, image.size.height*(self.view.bounds.size.width/image.size.width)))
+        let scaledimage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return scaledimage
     }
 }
