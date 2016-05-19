@@ -12,7 +12,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     var textField: UITextView!
-    var oldInfo: String!
+    let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,20 +32,13 @@ class DetailViewController: UIViewController {
     func showDetailView() {
         textField = UITextView(
             frame: CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 60))
-        textField.text = oldInfo
+        textField.text = appDelegate.value
         textField.becomeFirstResponder()
         self.view.addSubview(textField)
     }
     
     func doneClicked() {
-        let viewController = ViewController()
-        for (index, value) in viewController.list.enumerate() {
-            if(value == oldInfo) {
-                viewController.list[index] = textField.text!
-                break
-            }
-        }
-        viewController.tableView!.reloadData()
+        appDelegate.value = textField.text
         navigationController!.popToRootViewControllerAnimated(true)
     }
     
