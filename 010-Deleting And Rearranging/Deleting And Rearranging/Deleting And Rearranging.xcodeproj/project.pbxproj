@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FD687591CEF381800DB7271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD687581CEF381800DB7271 /* AppDelegate.swift */; };
+		9FD6875B1CEF381800DB7271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6875A1CEF381800DB7271 /* ViewController.swift */; };
+		9FD6875E1CEF381800DB7271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6875C1CEF381800DB7271 /* Main.storyboard */; };
+		9FD687601CEF381800DB7271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6875F1CEF381800DB7271 /* Assets.xcassets */; };
+		9FD687631CEF381800DB7271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD687611CEF381800DB7271 /* LaunchScreen.storyboard */; };
+		9FD6876E1CEF381800DB7271 /* Deleting_And_RearrangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6876D1CEF381800DB7271 /* Deleting_And_RearrangingTests.swift */; };
+		9FD687791CEF381800DB7271 /* Deleting_And_RearrangingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD687781CEF381800DB7271 /* Deleting_And_RearrangingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FD6876A1CEF381800DB7271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FD6874D1CEF381800DB7271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FD687541CEF381800DB7271;
+			remoteInfo = "Deleting And Rearranging";
+		};
+		9FD687751CEF381800DB7271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FD6874D1CEF381800DB7271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FD687541CEF381800DB7271;
+			remoteInfo = "Deleting And Rearranging";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FD687551CEF381800DB7271 /* Deleting And Rearranging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deleting And Rearranging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD687581CEF381800DB7271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FD6875A1CEF381800DB7271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FD6875D1CEF381800DB7271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FD6875F1CEF381800DB7271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FD687621CEF381800DB7271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FD687641CEF381800DB7271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD687691CEF381800DB7271 /* Deleting And RearrangingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deleting And RearrangingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD6876D1CEF381800DB7271 /* Deleting_And_RearrangingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deleting_And_RearrangingTests.swift; sourceTree = "<group>"; };
+		9FD6876F1CEF381800DB7271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD687741CEF381800DB7271 /* Deleting And RearrangingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deleting And RearrangingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD687781CEF381800DB7271 /* Deleting_And_RearrangingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deleting_And_RearrangingUITests.swift; sourceTree = "<group>"; };
+		9FD6877A1CEF381800DB7271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD687521CEF381800DB7271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD687661CEF381800DB7271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD687711CEF381800DB7271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FD6874C1CEF381800DB7271 = {
+			isa = PBXGroup;
+			children = (
+				9FD687571CEF381800DB7271 /* Deleting And Rearranging */,
+				9FD6876C1CEF381800DB7271 /* Deleting And RearrangingTests */,
+				9FD687771CEF381800DB7271 /* Deleting And RearrangingUITests */,
+				9FD687561CEF381800DB7271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD687561CEF381800DB7271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD687551CEF381800DB7271 /* Deleting And Rearranging.app */,
+				9FD687691CEF381800DB7271 /* Deleting And RearrangingTests.xctest */,
+				9FD687741CEF381800DB7271 /* Deleting And RearrangingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD687571CEF381800DB7271 /* Deleting And Rearranging */ = {
+			isa = PBXGroup;
+			children = (
+				9FD687581CEF381800DB7271 /* AppDelegate.swift */,
+				9FD6875A1CEF381800DB7271 /* ViewController.swift */,
+				9FD6875C1CEF381800DB7271 /* Main.storyboard */,
+				9FD6875F1CEF381800DB7271 /* Assets.xcassets */,
+				9FD687611CEF381800DB7271 /* LaunchScreen.storyboard */,
+				9FD687641CEF381800DB7271 /* Info.plist */,
+			);
+			path = "Deleting And Rearranging";
+			sourceTree = "<group>";
+		};
+		9FD6876C1CEF381800DB7271 /* Deleting And RearrangingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6876D1CEF381800DB7271 /* Deleting_And_RearrangingTests.swift */,
+				9FD6876F1CEF381800DB7271 /* Info.plist */,
+			);
+			path = "Deleting And RearrangingTests";
+			sourceTree = "<group>";
+		};
+		9FD687771CEF381800DB7271 /* Deleting And RearrangingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FD687781CEF381800DB7271 /* Deleting_And_RearrangingUITests.swift */,
+				9FD6877A1CEF381800DB7271 /* Info.plist */,
+			);
+			path = "Deleting And RearrangingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD687541CEF381800DB7271 /* Deleting And Rearranging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD6877D1CEF381800DB7271 /* Build configuration list for PBXNativeTarget "Deleting And Rearranging" */;
+			buildPhases = (
+				9FD687511CEF381800DB7271 /* Sources */,
+				9FD687521CEF381800DB7271 /* Frameworks */,
+				9FD687531CEF381800DB7271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deleting And Rearranging";
+			productName = "Deleting And Rearranging";
+			productReference = 9FD687551CEF381800DB7271 /* Deleting And Rearranging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FD687681CEF381800DB7271 /* Deleting And RearrangingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD687801CEF381800DB7271 /* Build configuration list for PBXNativeTarget "Deleting And RearrangingTests" */;
+			buildPhases = (
+				9FD687651CEF381800DB7271 /* Sources */,
+				9FD687661CEF381800DB7271 /* Frameworks */,
+				9FD687671CEF381800DB7271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FD6876B1CEF381800DB7271 /* PBXTargetDependency */,
+			);
+			name = "Deleting And RearrangingTests";
+			productName = "Deleting And RearrangingTests";
+			productReference = 9FD687691CEF381800DB7271 /* Deleting And RearrangingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FD687731CEF381800DB7271 /* Deleting And RearrangingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD687831CEF381800DB7271 /* Build configuration list for PBXNativeTarget "Deleting And RearrangingUITests" */;
+			buildPhases = (
+				9FD687701CEF381800DB7271 /* Sources */,
+				9FD687711CEF381800DB7271 /* Frameworks */,
+				9FD687721CEF381800DB7271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FD687761CEF381800DB7271 /* PBXTargetDependency */,
+			);
+			name = "Deleting And RearrangingUITests";
+			productName = "Deleting And RearrangingUITests";
+			productReference = 9FD687741CEF381800DB7271 /* Deleting And RearrangingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD6874D1CEF381800DB7271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MY;
+				TargetAttributes = {
+					9FD687541CEF381800DB7271 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9FD687681CEF381800DB7271 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9FD687541CEF381800DB7271;
+					};
+					9FD687731CEF381800DB7271 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9FD687541CEF381800DB7271;
+					};
+				};
+			};
+			buildConfigurationList = 9FD687501CEF381800DB7271 /* Build configuration list for PBXProject "Deleting And Rearranging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FD6874C1CEF381800DB7271;
+			productRefGroup = 9FD687561CEF381800DB7271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FD687541CEF381800DB7271 /* Deleting And Rearranging */,
+				9FD687681CEF381800DB7271 /* Deleting And RearrangingTests */,
+				9FD687731CEF381800DB7271 /* Deleting And RearrangingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD687531CEF381800DB7271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD687631CEF381800DB7271 /* LaunchScreen.storyboard in Resources */,
+				9FD687601CEF381800DB7271 /* Assets.xcassets in Resources */,
+				9FD6875E1CEF381800DB7271 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD687671CEF381800DB7271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD687721CEF381800DB7271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD687511CEF381800DB7271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD6875B1CEF381800DB7271 /* ViewController.swift in Sources */,
+				9FD687591CEF381800DB7271 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD687651CEF381800DB7271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD6876E1CEF381800DB7271 /* Deleting_And_RearrangingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD687701CEF381800DB7271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD687791CEF381800DB7271 /* Deleting_And_RearrangingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FD6876B1CEF381800DB7271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FD687541CEF381800DB7271 /* Deleting And Rearranging */;
+			targetProxy = 9FD6876A1CEF381800DB7271 /* PBXContainerItemProxy */;
+		};
+		9FD687761CEF381800DB7271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FD687541CEF381800DB7271 /* Deleting And Rearranging */;
+			targetProxy = 9FD687751CEF381800DB7271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FD6875C1CEF381800DB7271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD6875D1CEF381800DB7271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FD687611CEF381800DB7271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD687621CEF381800DB7271 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FD6877B1CEF381800DB7271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FD6877C1CEF381800DB7271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FD6877E1CEF381800DB7271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Deleting And Rearranging/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Deleting-And-Rearranging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FD6877F1CEF381800DB7271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Deleting And Rearranging/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Deleting-And-Rearranging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FD687811CEF381800DB7271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Deleting And RearrangingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Deleting-And-RearrangingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deleting And Rearranging.app/Deleting And Rearranging";
+			};
+			name = Debug;
+		};
+		9FD687821CEF381800DB7271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Deleting And RearrangingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Deleting-And-RearrangingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deleting And Rearranging.app/Deleting And Rearranging";
+			};
+			name = Release;
+		};
+		9FD687841CEF381800DB7271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Deleting And RearrangingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Deleting-And-RearrangingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deleting And Rearranging";
+			};
+			name = Debug;
+		};
+		9FD687851CEF381800DB7271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Deleting And RearrangingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Deleting-And-RearrangingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deleting And Rearranging";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD687501CEF381800DB7271 /* Build configuration list for PBXProject "Deleting And Rearranging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD6877B1CEF381800DB7271 /* Debug */,
+				9FD6877C1CEF381800DB7271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD6877D1CEF381800DB7271 /* Build configuration list for PBXNativeTarget "Deleting And Rearranging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD6877E1CEF381800DB7271 /* Debug */,
+				9FD6877F1CEF381800DB7271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FD687801CEF381800DB7271 /* Build configuration list for PBXNativeTarget "Deleting And RearrangingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD687811CEF381800DB7271 /* Debug */,
+				9FD687821CEF381800DB7271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FD687831CEF381800DB7271 /* Build configuration list for PBXNativeTarget "Deleting And RearrangingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD687841CEF381800DB7271 /* Debug */,
+				9FD687851CEF381800DB7271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD6874D1CEF381800DB7271 /* Project object */;
+}
