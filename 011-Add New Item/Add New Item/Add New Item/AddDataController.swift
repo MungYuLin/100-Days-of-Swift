@@ -11,7 +11,7 @@ import UIKit
 
 class AddDataViewController: UIViewController, UITextViewDelegate {
     
-    var textView: UITextView!
+    var addTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,12 +28,12 @@ class AddDataViewController: UIViewController, UITextViewDelegate {
     }
     
     func showDetailView() {
-        textView = UITextView(
+        addTextView = UITextView(
             frame: CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 60))
-        textView.becomeFirstResponder()
-        textView.returnKeyType = .Done
-        textView.delegate = self
-        self.view.addSubview(textView)
+        addTextView.becomeFirstResponder()
+        addTextView.returnKeyType = .Done
+        addTextView.delegate = self
+        self.view.addSubview(addTextView)
     }
     
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
@@ -44,13 +44,15 @@ class AddDataViewController: UIViewController, UITextViewDelegate {
     }
     
     func doneClicked() {
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.datas.addObject(addTextView.text!)
         navigationController!.popToRootViewControllerAnimated(true)
     }
     
     func moveSwipeGesture(sender: UISwipeGestureRecognizer){
         switch (sender.direction){
         case UISwipeGestureRecognizerDirection.Down:
-            textView.resignFirstResponder()
+            addTextView.resignFirstResponder()
             break
         default:
             break;

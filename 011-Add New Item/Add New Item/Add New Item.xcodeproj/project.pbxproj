@@ -492,6 +492,7 @@
 				9F9F04121CF088560024F0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F9F04131CF088560024F0B8 /* Build configuration list for PBXNativeTarget "Add New ItemTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				9F9F04151CF088560024F0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F9F04161CF088560024F0B8 /* Build configuration list for PBXNativeTarget "Add New ItemUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +510,7 @@
 				9F9F04181CF088560024F0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

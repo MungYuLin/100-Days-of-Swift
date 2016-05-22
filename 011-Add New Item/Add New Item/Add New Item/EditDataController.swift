@@ -11,7 +11,7 @@ import UIKit
 
 class EditDataController: UIViewController {
     
-    var textField: UITextView!
+    var eidtTextField: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,11 +25,9 @@ class EditDataController: UIViewController {
     }
     
     func showDetailView() {
-        textField = UITextView(
+        eidtTextField = UITextView(
             frame: CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 60))
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        textField.text = appDelegate.value
-        self.view.addSubview(textField)
+        self.view.addSubview(eidtTextField)
     }
     
     func doneClicked() {
