@@ -55,8 +55,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let firstLetter = groupTitles[indexPath.section]
-        let users = groups[firstLetter]!
+        let key = groupTitles[indexPath.section]
+        let users = groups[key]!
         let item = users[indexPath.row] as! User
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
         cell.textLabel!.text = item.Name ?? "Not initalized"
@@ -72,8 +72,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
+        let cell = tableView.cellForRowAtIndexPath(indexPath) as UITableViewCell?
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        appDelegate.selec = String(indexPath.row)
+        print(cell!.textLabel?.text)
+        appDelegate.selec = cell!.textLabel?.text
+        
         
         let detailViewController = DetailViewController()
         navigationController!.pushViewController(detailViewController, animated:true)

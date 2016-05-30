@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9F0A58C91CFABC1700CA2552 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A58C81CFABC1700CA2552 /* DetailViewController.swift */; };
 		9F5627411CFA8C3E0072BE3D /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5627401CFA8C3E0072BE3D /* ContactModel.swift */; };
-		9F5627471CFA8DE00072BE3D /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5627461CFA8DE00072BE3D /* cog.png */; };
 		9F5E4BB11CF877140054189E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E4BB01CF877140054189E /* AppDelegate.swift */; };
 		9F5E4BB31CF877140054189E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E4BB21CF877140054189E /* ViewController.swift */; };
 		9F5E4BB61CF877140054189E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4BB41CF877140054189E /* Main.storyboard */; };
@@ -17,7 +16,8 @@
 		9F5E4BBB1CF877140054189E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4BB91CF877140054189E /* LaunchScreen.storyboard */; };
 		9F5E4BC61CF877140054189E /* From_Sketch_to_XCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E4BC51CF877140054189E /* From_Sketch_to_XCodeTests.swift */; };
 		9F5E4BD11CF877140054189E /* From_Sketch_to_XCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E4BD01CF877140054189E /* From_Sketch_to_XCodeUITests.swift */; };
-		9FFE77571CF9D11B005E5616 /* cog-wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE77561CF9D11B005E5616 /* cog-wheel.png */; };
+		9F96D7411CFC5E010095F19E /* cog-wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F96D73F1CFC5E010095F19E /* cog-wheel.png */; };
+		9F96D7421CFC5E010095F19E /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F96D7401CFC5E010095F19E /* cog.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 /* Begin PBXFileReference section */
 		9F0A58C81CFABC1700CA2552 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9F5627401CFA8C3E0072BE3D /* ContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
-		9F5627461CFA8DE00072BE3D /* cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cog.png; path = ../../../../../../../Downloads/cog.png; sourceTree = "<group>"; };
 		9F5E4BAD1CF877140054189E /* From Sketch to XCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "From Sketch to XCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5E4BB01CF877140054189E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F5E4BB21CF877140054189E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +53,8 @@
 		9F5E4BCC1CF877140054189E /* From Sketch to XCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "From Sketch to XCodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5E4BD01CF877140054189E /* From_Sketch_to_XCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = From_Sketch_to_XCodeUITests.swift; sourceTree = "<group>"; };
 		9F5E4BD21CF877140054189E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FFE77561CF9D11B005E5616 /* cog-wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cog-wheel.png"; path = "../../../../../../../Downloads/cog-wheel.png"; sourceTree = "<group>"; };
+		9F96D73F1CFC5E010095F19E /* cog-wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cog-wheel.png"; path = "images/cog-wheel.png"; sourceTree = "<group>"; };
+		9F96D7401CFC5E010095F19E /* cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cog.png; path = images/cog.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,8 @@
 		9FFE77551CF9D0FB005E5616 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				9F5627461CFA8DE00072BE3D /* cog.png */,
-				9FFE77561CF9D11B005E5616 /* cog-wheel.png */,
+				9F96D73F1CFC5E010095F19E /* cog-wheel.png */,
+				9F96D7401CFC5E010095F19E /* cog.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -249,11 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5627471CFA8DE00072BE3D /* cog.png in Resources */,
+				9F96D7421CFC5E010095F19E /* cog.png in Resources */,
 				9F5E4BBB1CF877140054189E /* LaunchScreen.storyboard in Resources */,
 				9F5E4BB81CF877140054189E /* Assets.xcassets in Resources */,
 				9F5E4BB61CF877140054189E /* Main.storyboard in Resources */,
-				9FFE77571CF9D11B005E5616 /* cog-wheel.png in Resources */,
+				9F96D7411CFC5E010095F19E /* cog-wheel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

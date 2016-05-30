@@ -43,17 +43,4 @@ class User: NSObject {
         Email = "888888@qq.com"
         Notes = "we are 伐木累"
     }
-    
-//    override init() {
-//        super.init()
-//    }
-//    
-//    convenience init(contact: String) {
-//        self.init()
-//        Ico = "cog-wheel.png"
-//        Name = contact
-//        Mobile = "181xxxxxxxx"
-//        Email = "888888@qq.com"
-//        Notes = "we are 伐木累"
-//    }
 }
