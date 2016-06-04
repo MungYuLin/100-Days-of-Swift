@@ -10,21 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var selectedValue = [String: String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.whiteColor()
         
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        for item in appDelegate.selec {
-            print(item)
-        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
 
 }
 

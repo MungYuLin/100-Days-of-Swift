@@ -10,10 +10,15 @@ import UIKit
 
 class ContactsTableViewController: UITableViewController {
     
+    var indexOfSelectedPerson = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.sectionFooterHeight = 0
+        self.navigationController?.navigationBar.barTintColor = UIColor.init(red: 0/255, green: 119/255, blue: 204/255, alpha: 1)
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
     }
     
     override func didReceiveMemoryWarning() {
@@ -64,11 +69,29 @@ class ContactsTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        appDelegate.selec.append(indexPath.section)
-        appDelegate.selec.append(indexPath.row)
-        
-        let detailViewController = ViewController()
-        navigationController!.pushViewController(detailViewController, animated:true)
+        var info = [String: String]()
+        switch indexPath.section {
+        case 0:
+            info = recent[indexPath.row]
+        case 1:
+            info = firends[indexPath.row]
+        default:
+            break
+        }
+        performSegueWithIdentifier("SendDataSegue", sender: info)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        let controller = segue.destinationViewController as? ViewController
+        let cell = sender as! UITableViewCell
+        let indexPath = self.tableView.indexPathForCell(cell)
+        switch indexPath!.section {
+        case 0:
+            controller!.selectedValue = recent[indexPath!.row]
+        case 1:
+            controller!.selectedValue = firends[indexPath!.row]
+        default:
+            break
+        }
     }
 }
