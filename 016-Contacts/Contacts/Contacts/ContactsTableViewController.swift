@@ -60,25 +60,12 @@ class ContactsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
-            return "recent"
+            return "Recent"
         case 1:
-            return "firends"
+            return "Firends"
         default:
             return ""
         }
-    }
-    
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var info = [String: String]()
-        switch indexPath.section {
-        case 0:
-            info = recent[indexPath.row]
-        case 1:
-            info = firends[indexPath.row]
-        default:
-            break
-        }
-        performSegueWithIdentifier("SendDataSegue", sender: info)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
@@ -88,8 +75,10 @@ class ContactsTableViewController: UITableViewController {
         switch indexPath!.section {
         case 0:
             controller!.selectedValue = recent[indexPath!.row]
+            break
         case 1:
             controller!.selectedValue = firends[indexPath!.row]
+            break
         default:
             break
         }
