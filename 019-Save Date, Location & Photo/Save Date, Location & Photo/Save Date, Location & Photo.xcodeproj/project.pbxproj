@@ -14,6 +14,8 @@
 		9FC6B9081D0CE31E008F6D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC6B9061D0CE31E008F6D3A /* LaunchScreen.storyboard */; };
 		9FC6B9131D0CE31E008F6D3A /* Save_Date__Location___PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6B9121D0CE31E008F6D3A /* Save_Date__Location___PhotoTests.swift */; };
 		9FC6B91E1D0CE31E008F6D3A /* Save_Date__Location___PhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6B91D1D0CE31E008F6D3A /* Save_Date__Location___PhotoUITests.swift */; };
+		9FDEDF401D290E93008E013B /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEDF3E1D290E93008E013B /* myTableViewCell.swift */; };
+		9FDEDF411D290E93008E013B /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEDF3F1D290E93008E013B /* myTableViewCell.xib */; };
 		9FF83D3E1D102BB300B0DB8C /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF83D3D1D102BB300B0DB8C /* addViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		9FC6B9191D0CE31E008F6D3A /* Save Date, Location & PhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Save Date, Location & PhotoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC6B91D1D0CE31E008F6D3A /* Save_Date__Location___PhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Save_Date__Location___PhotoUITests.swift"; sourceTree = "<group>"; };
 		9FC6B91F1D0CE31E008F6D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDEDF3E1D290E93008E013B /* myTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		9FDEDF3F1D290E93008E013B /* myTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
 		9FF83D3D1D102BB300B0DB8C /* addViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +110,8 @@
 				9FC6B9061D0CE31E008F6D3A /* LaunchScreen.storyboard */,
 				9FC6B9091D0CE31E008F6D3A /* Info.plist */,
 				9FF83D3D1D102BB300B0DB8C /* addViewController.swift */,
+				9FDEDF3E1D290E93008E013B /* myTableViewCell.swift */,
+				9FDEDF3F1D290E93008E013B /* myTableViewCell.xib */,
 			);
 			path = "Save Date, Location & Photo";
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC6B9081D0CE31E008F6D3A /* LaunchScreen.storyboard in Resources */,
+				9FDEDF411D290E93008E013B /* myTableViewCell.xib in Resources */,
 				9FC6B9051D0CE31E008F6D3A /* Assets.xcassets in Resources */,
 				9FC6B9031D0CE31E008F6D3A /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC6B9001D0CE31E008F6D3A /* ViewController.swift in Sources */,
+				9FDEDF401D290E93008E013B /* myTableViewCell.swift in Sources */,
 				9FF83D3E1D102BB300B0DB8C /* addViewController.swift in Sources */,
 				9FC6B8FE1D0CE31E008F6D3A /* AppDelegate.swift in Sources */,
 			);

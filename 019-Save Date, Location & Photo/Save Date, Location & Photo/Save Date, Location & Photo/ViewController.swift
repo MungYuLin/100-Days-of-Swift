@@ -11,22 +11,25 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var tableView: UITableView!
-    
     let groups = [
         [
-            "data": "2015",
-            "ico": "",
+            "id": "001",
+            "date": "2015-10-1 10:01",
+            "ico": "icon-1.jpg",
             "note": "😄呵呵呵",
-            "location": "雲南"
+            "location": "銀河系偏遠地區太陽系中的第三顆行星地球村亞洲東部"
         ], [
-            "data": "2015",
-            "ico": "",
+            "id": "002",
+            "date": "2015-10-1 10:01",
+            "ico": "icon-2.jpg",
             "note": "╮(╯_╰)╭ ",
-            "location": "浙江"
+            "location": "銀河系偏遠地區太陽系中的第三顆行星地球村亞洲東部"
         ]
     ]
+    
     let groupTitles = ["2015", "2016"]
+    
+    var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +43,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView = UITableView(frame: CGRectMake(0, 0, 375, 665), style: .Plain)
         tableView!.delegate = self
         tableView!.dataSource = self
-        tableView!.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        //创建一个重用的单元格
+        tableView!.registerNib(UINib(nibName: "myTableViewCell", bundle: nil), forCellReuseIdentifier: "myCell")
         self.view.addSubview(tableView!)
     }
     
@@ -52,12 +56,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return groups.count
     }
     
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 110;
+    }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let item = groups[indexPath.row]
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
-        cell.textLabel!.text = item["note"]
-//        let image = UIImage(named: item["ico"] ?? "");
-//        cell.imageView?.image = image
+        let cell:myTableViewCell = tableView.dequeueReusableCellWithIdentifier("myCell") as! myTableViewCell
+        cell.dateLable.text = item["date"]
+        cell.noteLable.text = item["note"]
+        cell.locationLable.text = item["location"]
+        let image = UIImage(named: item["ico"] ?? "");
+        cell.iconImageView.image = image
         return cell
     }
     
@@ -66,7 +76,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func addAction() {
-        navigationController!.pushViewController(addViewController(), animated:true)
+        navigationController!.pushViewController(addViewController(), animated:true, completion: {
+            println("我要确定了，你知道吗？");
+        })
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        print(appDelegate.User)
     }
     
     override func didReceiveMemoryWarning() {
