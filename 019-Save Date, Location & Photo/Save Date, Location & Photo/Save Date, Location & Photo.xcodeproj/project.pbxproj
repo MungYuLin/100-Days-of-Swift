@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0C63871D2A80D0006151E7 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C63861D2A80D0006151E7 /* Protocol.swift */; };
 		9FC6B8FE1D0CE31E008F6D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6B8FD1D0CE31E008F6D3A /* AppDelegate.swift */; };
 		9FC6B9001D0CE31E008F6D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6B8FF1D0CE31E008F6D3A /* ViewController.swift */; };
 		9FC6B9031D0CE31E008F6D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC6B9011D0CE31E008F6D3A /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F0C63861D2A80D0006151E7 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		9FC6B8FA1D0CE31E008F6D3A /* Save Date, Location & Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Save Date, Location & Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC6B8FD1D0CE31E008F6D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC6B8FF1D0CE31E008F6D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				9FF83D3D1D102BB300B0DB8C /* addViewController.swift */,
 				9FDEDF3E1D290E93008E013B /* myTableViewCell.swift */,
 				9FDEDF3F1D290E93008E013B /* myTableViewCell.xib */,
+				9F0C63861D2A80D0006151E7 /* Protocol.swift */,
 			);
 			path = "Save Date, Location & Photo";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				9FDEDF401D290E93008E013B /* myTableViewCell.swift in Sources */,
 				9FF83D3E1D102BB300B0DB8C /* addViewController.swift in Sources */,
 				9FC6B8FE1D0CE31E008F6D3A /* AppDelegate.swift in Sources */,
+				9F0C63871D2A80D0006151E7 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

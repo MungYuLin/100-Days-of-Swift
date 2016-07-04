@@ -9,9 +9,9 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, ModeViewControlDelegate {
     
-    let groups = [
+    var groups = [
         [
             "id": "001",
             "date": "2015-10-1 10:01",
@@ -27,7 +27,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ]
     ]
     
-    let groupTitles = ["2015", "2016"]
+    let groupTitles = ["2016"]
+    
+    func changeData(user: [String: String]){
+        self.groups.append(user)
+        tableView.reloadData()
+    }
     
     var tableView: UITableView!
     
@@ -48,10 +53,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.view.addSubview(tableView!)
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return groups.count
-    }
-    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return groups.count
     }
@@ -62,7 +63,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let item = groups[indexPath.row]
-        let cell:myTableViewCell = tableView.dequeueReusableCellWithIdentifier("myCell") as! myTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("myCell") as! myTableViewCell
         cell.dateLable.text = item["date"]
         cell.noteLable.text = item["note"]
         cell.locationLable.text = item["location"]
@@ -76,11 +77,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func addAction() {
-        navigationController!.pushViewController(addViewController(), animated:true, completion: {
-            println("我要确定了，你知道吗？");
-        })
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        print(appDelegate.User)
+        let nextVC = addViewController()
+        // 指定代理
+        nextVC.delegate = self
+        navigationController!.pushViewController(nextVC, animated:true)
     }
     
     override func didReceiveMemoryWarning() {

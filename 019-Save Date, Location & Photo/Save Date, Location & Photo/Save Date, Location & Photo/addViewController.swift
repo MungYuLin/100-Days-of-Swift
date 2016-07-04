@@ -11,7 +11,7 @@ import Foundation
 import UIKit
 import CoreLocation
 
-class addViewController: UIViewController, UINavigationControllerDelegate, CLLocationManagerDelegate, UIImagePickerControllerDelegate   {
+class addViewController: UIViewController, UINavigationControllerDelegate, CLLocationManagerDelegate, UIImagePickerControllerDelegate {
     
     var navigationBar: UINavigationBar!
     var lable: UILabel! //新增日期
@@ -22,6 +22,9 @@ class addViewController: UIViewController, UINavigationControllerDelegate, CLLoc
     var locat = "地址信息" //定位信息
     
     var locationManager: CLLocationManager!
+    
+    //  代理成员变量
+    weak var delegate: ModeViewControlDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -151,15 +154,18 @@ class addViewController: UIViewController, UINavigationControllerDelegate, CLLoc
     }
     
     func saveAction() {
-        let user:[String: String] = [
+        let user: [String: String] = [
             "id": "003",
             "date": lable.text!,
             "ico": "icon-1.jpg",
             "note": textView.text,
             "location": locat
         ]
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        appDelegate.User = user
+        if self.delegate != nil {
+            self.delegate!.changeData(user)
+        } else {
+            print("delegate is nil")
+        }
         navigationController!.popViewControllerAnimated(true)
     }
 }
