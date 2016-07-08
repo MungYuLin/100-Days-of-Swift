@@ -39,6 +39,7 @@ class ViewController: UIViewController, ModeViewControlDelegate {
     
     func setDateTime() {
         let nextVC = setDateTimeController()
+        nextVC.strs = lable.text!
         nextVC.delegate = self
         navigationController!.pushViewController(nextVC, animated:true)
     }

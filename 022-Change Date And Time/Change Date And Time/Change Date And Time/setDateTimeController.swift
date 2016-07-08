@@ -17,6 +17,8 @@ class setDateTimeController: UIViewController {
     var timePicker = UIDatePicker()
     var lable = UILabel()
     
+    var strs = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,18 +30,26 @@ class setDateTimeController: UIViewController {
         navigationItem.leftBarButtonItem = leftButton
         navigationItem.rightBarButtonItem = rightButton
         
+        // String 轉 NSDate
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        let today = formatter.dateFromString(strs)
+        
         lable = UILabel(frame: CGRectMake(130, 80, 200, 50))
         lable.font = UIFont(name: "Arial", size: 14)
+        lable.text = String("today is \(strs)")
         self.view.addSubview(lable)
         
         datePicker = UIDatePicker(frame: CGRectMake(0, 120, 375, 200))
         datePicker.locale = NSLocale(localeIdentifier: "zh_CN")
         datePicker.datePickerMode = .Date
+        datePicker.date = today!
         self.view.addSubview(datePicker)
         
         timePicker = UIDatePicker(frame: CGRectMake(0, 350, 375, 200))
         timePicker.locale = NSLocale(localeIdentifier: "zh_CN")
         timePicker.datePickerMode = .Time
+        datePicker.date = today!
         self.view.addSubview(timePicker)
     }
     
@@ -48,6 +58,7 @@ class setDateTimeController: UIViewController {
     }
     
     func saveAction() {
+        // NSDate 轉 String
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         let timeFormatter = NSDateFormatter()
