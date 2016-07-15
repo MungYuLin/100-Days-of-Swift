@@ -16,6 +16,7 @@
 		9F01FBC81D365E5100F828D6 /* Scroll_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01FBC71D365E5100F828D6 /* Scroll_ViewsUITests.swift */; };
 		9F01FBD61D365F7400F828D6 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01FBD51D365F7400F828D6 /* ImagesCollectionViewCell.swift */; };
 		9F01FBD81D366E0000F828D6 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01FBD71D366E0000F828D6 /* DetailsView.swift */; };
+		9FD3BEE11D374A5800ABB454 /* ModelImageInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD3BEE01D374A5800ABB454 /* ModelImageInfos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9F01FBC91D365E5100F828D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F01FBD51D365F7400F828D6 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		9F01FBD71D366E0000F828D6 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		9FD3BEE01D374A5800ABB454 /* ModelImageInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelImageInfos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				9F01FBB31D365E5100F828D6 /* Info.plist */,
 				9F01FBD51D365F7400F828D6 /* ImagesCollectionViewCell.swift */,
 				9F01FBD71D366E0000F828D6 /* DetailsView.swift */,
+				9FD3BEE01D374A5800ABB454 /* ModelImageInfos.swift */,
 			);
 			path = "Scroll Views";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F01FBAA1D365E5100F828D6 /* ViewController.swift in Sources */,
+				9FD3BEE11D374A5800ABB454 /* ModelImageInfos.swift in Sources */,
 				9F01FBD81D366E0000F828D6 /* DetailsView.swift in Sources */,
 				9F01FBD61D365F7400F828D6 /* ImagesCollectionViewCell.swift in Sources */,
 				9F01FBA81D365E5100F828D6 /* AppDelegate.swift in Sources */,
@@ -413,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Scroll-Views";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -424,6 +429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "InvisibleElephant.Scroll-Views";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -492,6 +498,7 @@
 				9F01FBCE1D365E5100F828D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F01FBCF1D365E5100F828D6 /* Build configuration list for PBXNativeTarget "Scroll ViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +507,7 @@
 				9F01FBD11D365E5100F828D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F01FBD21D365E5100F828D6 /* Build configuration list for PBXNativeTarget "Scroll ViewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +516,7 @@
 				9F01FBD41D365E5100F828D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

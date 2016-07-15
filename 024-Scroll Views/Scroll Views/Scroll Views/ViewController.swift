@@ -30,6 +30,30 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         self.automaticallyAdjustsScrollViewInsets = true
         self.makeUICollectionView()
+        
+        // 1.使用PHP连接数据库并获取数据，返回json；通过NSURL获取数据
+        // 2.使用SQLite.Swift库进行数据库操作
+        
+        let urlPath: String = "https://localhost/swift-php/swiftconnapi.php"
+        let url: NSURL = NSURL(string: urlPath)!
+        let request1: NSURLRequest = NSURLRequest(URL: url)
+        let response: AutoreleasingUnsafeMutablePointer<NSURLResponse?>=nil
+        
+        
+        do {
+            let dataVal = try NSURLConnection.sendSynchronousRequest(request1, returningResponse: response)
+            do {
+                if let jsonResult = try NSJSONSerialization.JSONObjectWithData(dataVal, options: []) as? NSDictionary {
+                    print("Synchronous\(jsonResult)")
+                }
+            } catch let error as NSError {
+                print(error.localizedDescription)
+            }
+            
+        }
+        catch let error as NSError {
+            print(error.localizedDescription)
+        }
     }
     
     func makeUICollectionView()
